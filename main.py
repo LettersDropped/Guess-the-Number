@@ -11,18 +11,15 @@ guess = ''              #Empty variable to take the user's input
 randnum = (random.randint(0,9))     #generating random numbers upto 9 with random module
 
 
-##Main
+#Taking the user input and printing the results running if-else statements to print the results..
 
-
-#Taking the user input and printing the results
-
-
-if ques == yans:                                            #Running the if statements to print the results
-    guess = input("Guess the number betwenn 0 to 9: ")           
+if ques == yans:                         
+    print("Okay, I am guessing the number between 0 to 9... Enter your number:")                                            #Running the if statements to print the results
+    guess = int(input())           
     if guess == randnum:
         print("You guessed the correct number!")
     else:
-        print("Wrong Answer!, The correct answer is", randnum)
+        print(f"Wrong Answer!, The correct answer is {randnum} and your answer is {guess}")
 else:
     print(repn)         
 
