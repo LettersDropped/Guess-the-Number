@@ -7,7 +7,7 @@ You can run this simple game in the terminal
 
 1. Clone the respository 📩
 
-```https://github.com/LettersDropped/Guess-the-Number```
+```git clone https://github.com/LettersDropped/Guess-the-Number```
 
 or 
 
